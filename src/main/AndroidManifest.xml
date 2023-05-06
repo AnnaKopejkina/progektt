@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PROGEKT"
+        tools:targetApi="31">
+        <activity
+            android:name=".Ar"
+            android:exported="false" />
+        <activity
+            android:name=".Clor"
+            android:exported="false" />
+        <activity
+            android:name=".Sera"
+            android:exported="false" />
+        <activity
+            android:name=".P"
+            android:exported="false" />
+        <activity
+            android:name=".Sili"
+            android:exported="false" />
+        <activity
+            android:name=".sili"
+            android:exported="false" />
+        <activity
+            android:name=".Alumini"
+            android:exported="false" />
+        <activity
+            android:name=".Magni"
+            android:exported="false" />
+        <activity
+            android:name=".Natri"
+            android:exported="false" />
+        <activity
+            android:name=".Heli"
+            android:exported="false" />
+        <activity
+            android:name=".Neon"
+            android:exported="false" />
+        <activity
+            android:name=".Ftor"
+            android:exported="false" />
+        <activity
+            android:name=".Kislorod"
+            android:exported="false" />
+        <activity
+            android:name=".Azot"
+            android:exported="false" />
+        <activity
+            android:name=".Uglerod"
+            android:exported="false" />
+        <activity
+            android:name=".Beriliy"
+            android:exported="false" />
+        <activity
+            android:name=".Bor"
+            android:exported="false" />
+        <activity
+            android:name=".b"
+            android:exported="false" />
+        <activity
+            android:name=".Litiy"
+            android:exported="false" />
+        <activity
+            android:name=".Vodorod"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
